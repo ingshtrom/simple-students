@@ -1,0 +1,7 @@
+<md-toast class="toast-confirm">
+  <div flex>Do you really want to delete student: {{lastName}}, {{firstName}}?</div>
+  <div class="row">
+    <md-button class="md-raised" ng-click="closeToast()">Wait! No! I changed my mind!!</md-button>
+    <md-button class="md-raised md-warn" ng-click="removeStudent()">I think so...</md-button>
+  </div>
+</md-toast>

@@ -1,0 +1,65 @@
+{
+  "name": "simple-students",
+  "description": "The best project ever.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ingshtrom/simple-students",
+  "author": {
+    "name": "Alex Hokanson",
+    "email": "alex.hokanson@mysticgear.com",
+    "url": "https://github.com/ingshtrom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ingshtrom/simple-students.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ingshtrom/simple-students/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ingshtrom/simple-students/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.11.0"
+  },
+  "scripts": {
+    "test": "mocha -c --reporter spec --recursive --bail --check-leaks --timeout 10000 test-out/server/specs/"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.3.11",
+    "good": "^4.0.0",
+    "good-console": "^2.0.1",
+    "good-file": "^3.1.0",
+    "hapi": "^7.5.2",
+    "joi": "^5.1.0",
+    "lodash": "^2.4.1",
+    "mongodb": "^1.4.26",
+    "mongoose": "^3.8.21",
+    "sinon": "^1.12.2",
+    "string": "^2.2.0",
+    "uuid-v4": "^0.1.0",
+    "winston": "^0.8.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-counter": "^1.0.0",
+    "coffeelint": "^1.6.1",
+    "glob": "^4.0.6",
+    "grunt": "^0.4.5",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-hapi": "^0.8.1",
+    "load-grunt-tasks": "^1.0.0",
+    "mocha": "^2.0.1",
+    "request": "^2.48.0"
+  },
+  "keywords": []
+}
